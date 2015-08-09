@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="starwars">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/planets.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/ships.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/splash.css" media="screen" charset="utf-8">
+  <title>Star Wars Stuff</title>
+</head>
+
+<body>
+
+  <ng-view autoscroll></ng-view>
+
+  <!-- Angular -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
+  <!-- Angular Charts -->
+  <script src="https://rawgit.com/nnnick/Chart.js/master/Chart.min.js"></script>
+  <script src="https://rawgit.com/jtblin/angular-chart.js/master/dist/angular-chart.min.js"></script>
+  <!-- Angular Audio -->
+  <script src="./angular-audio/app/angular.audio.js"></script>
+  <!-- Module -->
+  <script src="./js/app.js"></script>
+  <!-- Planet Controller -->
+  <script src="./js/planetController.js"></script>
+  <!-- Planet Service -->
+  <script src="./js/planetService.js"></script>
+  <!-- Ship Controller -->
+  <script src="./js/shipController.js"></script>
+  <!-- Ship Service -->
+  <script src="./js/shipService.js"></script>
+  <!-- Directives -->
+  <script src="./js/timeDirective.js"></script>
+  <script src="./js/logoDirective.js"></script>
+
+</body>
+
+</html>

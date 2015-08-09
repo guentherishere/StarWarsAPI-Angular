@@ -1,0 +1,49 @@
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    background-image: url(../images/background.png);
+    background-attachment: fixed;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    background: #ebebeb;
+  }
+  .content {
+    margin: auto 2% 3% 2%;
+  }
+  navbar {
+    background: #000000;
+    background-image: url(../images/background.png);
+    width: 100%;
+    position: fixed;
+    color: #ebebeb;
+  }
+  a {
+    color: #ebebeb;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #ebebeb;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #F7D800;
+  }
+  mg-show-time {
+    color: #FEF128;
+  }
+  galacticClock {
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 23%;
+  }
+  .mainImg {
+    height: 563px;
+    width: 1000px;
+  }

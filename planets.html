@@ -1,0 +1,68 @@
+<div class="wrap" ng-controller="planetCtrl">
+  <navbar>
+    <a href="/#/">
+      <mg-star-wars></mg-star-wars>
+    </a>
+    <span class="planetLinks">
+      <ul>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Alderaan')" start="0.2" volume="0.5">Alderaan</a>
+        </li>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Yavin IV')" start="0.2" volume="0.5">Yavin IV</a>
+        </li>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Hoth')" start="0.2" volume="0.5">Hoth</a>
+        </li>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Dagobah')" start="0.2" volume="0.5">Dagobah</a>
+        </li>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Bespin')" start="0.2" volume="0.5">Bespin</a>
+        </li>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Endor')" start="0.2" volume="0.5">Endor</a>
+        </li>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Naboo')" start="0.2" volume="0.5">Naboo</a>
+        </li>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Coruscant')" start="0.2" volume="0.5">Coruscant</a>
+        </li>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Kamino')" start="0.2" volume="0.5">Kamino</a>
+        </li>
+        <li class="planets">
+          <a href="" ng-audio="./music/saberon.mp3" ng-click="scrollTo('Geonosis')" start="0.2" volume="0.5">Geonosis</a>
+        </li>
+      </ul>
+    </span>
+  </navbar>
+  <planets ng-repeat="planet in planets">
+    <a name="{{planet.name}}"></a>
+    <img  class="mainImg" src="{{planet.img}}"/>
+    <div class="content">
+      <p>
+        <h1>
+          {{planet.name}}
+        </h1>
+      </p>
+
+      <ul class="ulstats">
+        <li class="stats">
+          <b>Climate:</b>&nbsp;{{planet.climate}}</li>
+        <li class="stats">
+          <b>Terrain:</b>&nbsp;{{planet.terrain}}</li>
+        <li class="stats">
+          <b>Diameter:</b>&nbsp;{{planet.diameter}}mi</li>
+        <li class="stats">
+          <b>Rotational Period:</b>&nbsp;{{planet.rotation_period}}hrs</li>
+        <li class="stats">
+          <b>Surface Water:</b>&nbsp;{{planet.surface_water}}%</li>
+      </ul>
+
+      <p>
+        {{planet.summary}}</p>
+    </div>
+  </planets>
+</div>

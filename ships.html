@@ -1,0 +1,64 @@
+<div class="wrap" ng-controller="shipCtrl">
+  <shipsNavbar>
+    <a href="/#/">
+      <mg-star-wars></mg-star-wars>
+    </a>
+    <span class="shipLinks">
+      <ul>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('Sentinel-class landing craft')" start="0.2" volume="0.5">Sentinel</a>
+        </li>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('Death Star')" start="0.2" volume="0.5">Death Star</a>
+        </li>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('Millennium Falcon')" start="0.2" volume="0.5">Millennium Falcon</a>
+        </li>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('Y-wing')" start="0.2" volume="0.5">Y-wing</a>
+        </li>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('X-wing')" start="0.2" volume="0.5">X-wing</a>
+        </li>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('TIE Advanced x1')" start="0.2" volume="0.5">TIE Advanced x1</a>
+        </li>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('Executor')" start="0.2" volume="0.5">Executor</a>
+        </li>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('Slave 1')" start="0.2" volume="0.5">Slave 1</a>
+        </li>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('Imperial shuttle')" start="0.2" volume="0.5">Imperial Shuttle</a>
+        </li>
+        <li class="ships">
+          <a href="" ng-audio="./music/blaster.mp3" ng-click="scrollTo('EF76 Nebulon-B escort frigate')" start="0.2" volume="0.5">Escort Frigate</a>
+        </li>
+      </ul>
+    </span>
+  </shipsNavbar>
+  <ships ng-repeat="ship in shipStats">
+    <a name="{{ship.name}}"></a>
+    <p>&nbsp;</p>
+    <img  class="mainImg" src="{{ship.img}}"/>
+    <div> <p class="content>">
+      <h1>
+        {{ship.name}}
+      </h1>
+    </p>
+    <ul class="ulstatistics">
+      <li class="statistics">
+        <b>Model:</b>&nbsp;{{ship.model}}</li>
+      <li class="statistics">
+        <b>Manufacturer:</b>&nbsp;{{ship.manufacturer}}</li>
+      <li class="statistics">
+        <b>
+          Class:</b>&nbsp;{{ship.starship_class}}</li>
+      <li class="statistics">
+        <b>
+      </ul>
+      <canvas class="chart chart-radar" data="[ship.nestArray]" id="radar" labels="labels"></canvas>
+    </ships>
+  </div>
+</div>
