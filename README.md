@@ -16,7 +16,7 @@ If I had to create this webapp again I would have established a more flexible fi
 <h3>Screenshots</h3>
 <a href="http://i.imgur.com/OULbZys.png" target="new">Splash Page</a>
 <br>
-<a href="http://i.imgur.com/Rfsg4Zj.jpg" target="new">Planets ScreenShot</a>
+<a href="http://i.imgur.com/Rfsg4Zj.jpg" target="new">Planets Page</a>
 <br>
 <a href="http://i.imgur.com/GlBZx2V.png" target="new">Ships Radar Graph</a>
 
