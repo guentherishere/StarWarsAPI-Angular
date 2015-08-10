@@ -22,14 +22,14 @@ If I had to create this webapp again I would have established a more flexible fi
 
 
 <h3>Libraries/Frameworks/Resources Used</h3>
-<a href="https://swapi.co/" target="new">Star Wars API</a>
-<br>
-<a href="https://necolas.github.io/normalize.css/" target="new">Normalize.css</a>
-<br>
 <a href="https://angularjs.org/" target="new">AngularJS</a>
 <br>
-<a href="http://cdnjs.com/libraries/angular.js/" target="new">Angular Routes</a>
+<a href="https://github.com/danielstern/ngAudio" target="new">Angular Audio</a>
 <br>
 <a href="http://jtblin.github.io/angular-chart.js/" target="new">Angular Chart</a>
 <br>
-<a href="https://github.com/danielstern/ngAudio" target="new">Angular Audio</a>
+<a href="http://cdnjs.com/libraries/angular.js/" target="new">Angular Routes</a>
+<br>
+<a href="https://necolas.github.io/normalize.css/" target="new">Normalize.css</a>
+<br>
+<a href="https://swapi.co/" target="new">Star Wars API</a>
