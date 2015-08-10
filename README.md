@@ -13,6 +13,13 @@ Overall this project solidified my understanding of Angular using routing, custo
 <h3>Lessons Learned</h3>
 If I had to create this webapp again I would have established a more flexible file structure early on. I started this project early and realized I needed to create the ships page after I already began. As a result I had to do some re-arranging of index files, controllers, and services. This was unneccessary and could have been prevented with a more efficient file structure from the beginning. This was the biggest lesson learned on this project that I will take with me in to my future projects. Lastly, I would have made this website responsive if I had to do it again.
 
+<h3>Screenshots</h3>
+<a href="http://i.imgur.com/OULbZys.png" target="new">Splash Page</a>
+<br>
+<a href="http://i.imgur.com/Rfsg4Zj.jpg" target="new">Planets ScreenShot</a>
+<br>
+<a href="http://i.imgur.com/GlBZx2V.png" target="new">Ships Radar Graph</a>
+
 
 <h3>Libraries/Frameworks/Resources Used</h3>
 <a href="https://swapi.co/" target="new">Star Wars API</a>
